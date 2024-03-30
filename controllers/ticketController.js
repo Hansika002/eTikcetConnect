@@ -1,6 +1,5 @@
 const ticketSchema = require('../models/ticketSchema');
 
-
 const createTicket = async(req , res) =>
 {
     const newEntry  = new ticketSchema({
